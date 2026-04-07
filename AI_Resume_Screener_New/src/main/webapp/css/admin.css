@@ -1,0 +1,89 @@
+@charset "UTF-8";@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+.admin-navbar {
+    background: #1e293b;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logout-btn {
+    background: #ef4444;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Container */
+.admin-container {
+    padding: 60px;
+}
+
+.admin-container h2 {
+    margin-bottom: 40px;
+}
+
+/* Stats */
+.stats-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.stat-card {
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    background: #334155;
+}
+
+.stat-card h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Management Buttons */
+.management-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.manage-btn {
+    background: #3b82f6;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.manage-btn:hover {
+    background: #2563eb;
+}
