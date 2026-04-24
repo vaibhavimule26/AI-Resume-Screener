@@ -71,10 +71,8 @@ src/
       ├── java/
       └── webapp/
 
-## 👩‍💻 Contributors
-* **Vaibhavi Mule**
-* Vaishnavi Salunkhe
-* Varun Rane
+## 👩‍💻 Developed By
+**Vaibhavi Mule** 
 
 ## 📌 Conclusion
 This project demonstrates how automation and AI-inspired techniques can significantly improve the efficiency of recruitment systems by reducing manual work and enhancing decision-making accuracy.
